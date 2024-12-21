@@ -14,6 +14,7 @@ Providing clear feedback on how to improve password strength.
 Scoring passwords on a percentage-based scale (0–100%).
 Detecting and preventing the reuse of expired passwords.
 Features
+
 Password Strength Analysis:
 
 Classifies passwords as "Strong," "Moderate," or "Weak."
@@ -37,12 +38,14 @@ The script uses built-in Python libraries (re, math, getpass, etc.).
 Installation
 Clone or download the project repository.
 Open a terminal or command prompt and navigate to the project directory.
+
 Execution
 Run the script using the command:
-bash
-Copy code
+
 python password_strength_analyzer.py
+
 Follow the prompts to input and analyze your password.
+
 Dependencies
 This project does not require external libraries or installations, as it relies solely on Python's standard library.
 
@@ -56,22 +59,17 @@ Code Documentation
 The code is thoroughly documented with clear comments explaining its logic and functionality. Here’s a summary of key functions:
 
 Functions
-calculate_entropy(password)
-
+1- calculate_entropy(password)
 Purpose: Calculates the entropy of a password to measure its complexity.
 Returns: A numeric value representing entropy.
-calculate_password_score(password)
 
+2-calculate_password_score(password)
 Purpose: Scores the password based on length, character variety, and entropy.
 Returns: Password score (0–100).
-analyze_password(password)
 
+3-analyze_password(password)
 Purpose: Validates the password against the defined criteria and generates feedback.
 Returns: A tuple containing strength classification, score, and feedback list.
-is_password_expired(password)
 
-Purpose: Checks if a password has expired due to repeated use.
-Returns: Boolean indicating whether the password is expired.
-main()
-
+4-main()
 Purpose: Main program loop for user interaction and password analysis.
