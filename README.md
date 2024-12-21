@@ -73,3 +73,14 @@ Returns: A tuple containing strength classification, score, and feedback list.
 
 4-main()
 Purpose: Main program loop for user interaction and password analysis.
+
+
+
+          CODE EXAMPLE 
+          Enter your password (input hidden): *********
+Password Strength: Moderate
+Password Score: 70%
+Feedback:
+- Add at least one special character (e.g., !, @, #, $).
+- Increase password length to at least 12 characters.
+
